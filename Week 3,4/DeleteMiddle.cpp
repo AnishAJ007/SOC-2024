@@ -13,7 +13,7 @@ struct ListNode {
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        // If head or head's next is null, return null (no middle to delete)
+        // If head or head's next is null, return null (no middle to delete)//
         if (head == nullptr || head->next == nullptr) {
             return nullptr;
         }

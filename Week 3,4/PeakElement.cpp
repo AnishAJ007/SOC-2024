@@ -8,7 +8,7 @@ public:
     int findPeakElement(vector<int>& nums) {
         int s = 0; // Start index of the array
         int e = nums.size() - 1; // End index of the array
-        int n = nums.size(); // Size of the array
+        int n = nums.size(); // Size of the array //
 
         while (s <= e) {
             int mid = s + (e - s) / 2; // Calculate middle index

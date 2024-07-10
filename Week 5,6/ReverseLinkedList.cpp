@@ -14,7 +14,7 @@ class Solution {
 public:
     // Recursive function to reverse a linked list
     void reverse(ListNode* &head, ListNode* &curr, ListNode* &prev) {
-        if (curr == nullptr) {
+        if (curr == nullptr) {//
             head = prev; // Update the head to the new head of reversed list
             return;
         }

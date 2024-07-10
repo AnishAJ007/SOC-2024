@@ -15,7 +15,7 @@ public:
     // Function to find the middle node of a linked list
     ListNode* getmid(ListNode* &head) {
         ListNode* slow = head;
-        ListNode* fast = head->next;
+        ListNode* fast = head->next;//
 
         while (fast != nullptr && fast->next != nullptr) {
             fast = fast->next->next;

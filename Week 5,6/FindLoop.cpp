@@ -13,7 +13,7 @@ public:
     bool hasCycle(ListNode* head) {
         // Check for empty list or single node list
         if (head == nullptr || head->next == nullptr) {
-            return false;
+            return false;//
         }
 
         ListNode* slow = head;  // Slow pointer moves one step at a time

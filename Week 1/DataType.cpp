@@ -17,7 +17,7 @@ public:
     }
 };
 
-// Driver code to test the Solution class
+// Driver code to test the Solution class//
 int main() {
     int t;
     cin >> t; // Number of test cases

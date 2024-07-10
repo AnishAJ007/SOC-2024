@@ -14,7 +14,7 @@ public:
         int second = -1;    // Initialize second largest element
         
         for (int i = 1; i < n; ++i) {
-            // Update first and second largest elements
+            // Update first and second largest elements//
             if (arr[i] > first) {
                 second = first;
                 first = arr[i];
